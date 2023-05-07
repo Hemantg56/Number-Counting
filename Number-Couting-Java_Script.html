@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Number Couting</title>
+</head>
+
+<body>
+    <h1 id="d"></h1>
+    <!-- automatic count karava mate function nu use thay 6  -->
+
+    <!-- and inc varname ni pahela karvanu to j thay -->
+
+    <!-- method = setInterval thi chalu thay 6 -->
+
+    <!-- varnames = setInterval('test()', 1) -->
+
+    <!-- stop karava mate  -->
+    <!-- if condision lagavanu -->
+    <!-- if na uderr -->
+
+    <!-- clearInterval(varname) -->
+
+    <script>
+        x = 0;
+
+        h1 = document.getElementById('d')
+            // h1.innerHTML = x;
+
+        function test() {
+            h1.innerHTML = ++x;
+
+            if (x == 500) {
+                clearInterval(chack)
+
+            }
+        }
+        chack = setInterval('test()', 100)
+
+        // chack = setTimeout('test()', 100)
+    </script>
+</body>
+
+</html>
